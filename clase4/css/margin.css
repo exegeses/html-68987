@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: #081526;
+    color: #fbfcfe;
+    width: 768px;
+    margin: auto;
+}
+h1{
+    font-weight: 300;
+}
+h2{
+    font-weight: 300;
+    margin-top: 32px;
+}
+
+#amarillo{
+    width: 128px;
+    height: 128px;
+    background-color: rgb(235, 235, 164);
+    /* 
+        margin-top: 60px;
+        margin-left: 80px;
+        margin-bottom: 24px;
+    */
+    margin: 60px 0px 24px 80px;
+}
+#naranja{
+    width: 128px;
+    height: 128px;
+    background-color: rgb(235, 185, 164);
+    margin: auto; /* centrar un contenedor */
+}
+#violeta{
+    width: 128px;
+    height: 128px;
+    background-color: rgb(222, 164, 235);
+    margin: 32px;
+}
