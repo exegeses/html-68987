@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    background-color: #444;
+}
+    #contenedor{
+        width: 800px;
+        height: 500px;
+        background-color: #666;
+        margin: 32px auto;
+        display: flex;
+        flex-wrap: wrap;/* respeta los anchos y genera nueva fila */
+    } 
+        #contenedor article{
+            width: 200px;
+            height: 180px;
+            border: 1px solid #060;
+            background-color: rgb(152, 224, 184);
+        }
