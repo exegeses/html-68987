@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&display=swap');
+
+/* reseteo */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Figtree', sans-serif;
+    color: #fff;
+    background-color: rgb(47, 71, 69);
+    width: 768px;
+    margin: auto;
+}   
+
+h1, h2, section{
+    margin: 24px 0px; 
+}
+
+#contenedor{
+    height: 320px;
+    border-radius: 16px;
+    background: rgb(58,155,176);
+    background: linear-gradient(90deg, rgba(58,155,176,1) 0%, rgba(186,34,212,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor2{
+    height: 400px;
+    border-radius: 16px;
+    background: rgb(12,67,79);
+    background: linear-gradient(90deg, rgba(12,67,79,1) 0%, rgba(136,16,157,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #contenedor2 article{
+        border-radius: 16px;
+        width: 420px;
+        height: 280px;
+        background-color: hsla(0, 0%, 0%, 0.15);
+    }
